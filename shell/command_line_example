@@ -1,0 +1,1 @@
+for n in {4..12..1}; do mv result$n result412; done
