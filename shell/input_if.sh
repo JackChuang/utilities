@@ -17,3 +17,9 @@ elif [ "$1" = "456" ]; then
 else
     echo "not 123/456"
 fi
+
+for var in "$@" #input
+do
+    echo "input: $var"
+done
+

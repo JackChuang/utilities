@@ -23,3 +23,13 @@ do
 done
 echo ""
 
+
+array=(500 600 700)
+arraylength=${#array[@]}
+for (( i=1; i<${arraylength}+1; i++ ));
+do
+    for seq in `seq 1 4`; do 
+        echo $i " / " ${arraylength} " : " ${array[$i-1]}
+    done
+    echo ""
+done
