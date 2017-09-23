@@ -1,0 +1,13 @@
+-rw-r--r-- 1 jackchuang jackchuang 964M Sep 23 17:47 999999
+-rwxr-xr-x 1 jackchuang jackchuang   1M Sep 23 17:47 blackscholes
+-rwxr-xr-x 1 jackchuang jackchuang   2M Sep 23 17:47 bt.B.x-nodes
+-rwxr-xr-x 1 jackchuang jackchuang   2M Sep 23 17:47 ep.B.x
+-rwxr-xr-x 1 jackchuang jackchuang   2M Sep 23 17:47 ft.B.x-nodes
+-rw-r--r-- 1 jackchuang jackchuang 603M Sep 23 17:48 in_10M.txt
+-rwxr-xr-x 1 jackchuang jackchuang   2M Sep 23 17:47 numa-BFS-nodes
+-rwxr-xr-x 1 jackchuang jackchuang   2M Sep 23 17:47 numa-PageRank-nodes
+-rw-r--r-- 1 jackchuang jackchuang   0M Sep 23 17:49 usage_n_inputfile
+
+./numa-XXX 999999 <2~4>
+./blackscholes <2~4> in_10M.txt xxx.out
+
