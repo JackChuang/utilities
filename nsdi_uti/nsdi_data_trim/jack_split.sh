@@ -9,7 +9,7 @@
 
 #split
 #
-    for file in bk  btb  epb  ftb  numa_bfs  numa_page
+    for file in bk  btb  epb  ftb  numa-bfs  numa-page
     do
         for z in 2 3 4;
         do
@@ -32,7 +32,7 @@
         rm result_recv
     fi
 
-    for file in bk  btb  epb  ftb  numa_bfs  numa_page
+    for file in bk  btb  epb  ftb  numa-bfs  numa-page
     do
         for z in 2 3 4
         do
