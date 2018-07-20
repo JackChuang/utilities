@@ -6,6 +6,9 @@
 # Distributed under terms of the MIT license.
 #
 
+is_flag1=0
+is_flag2=1
+
 echo "Input counts: $#"
 echo "First arg: $1"
 echo "Second arg: $2"
@@ -23,3 +26,14 @@ do
     echo "input: $var"
 done
 
+if [ $is_flag1 = 1 ]; then
+    echo "is_flag1 is 1"
+else
+    echo "is_flag1 is not 1"
+fi
+
+if [ $is_flag2 = 1 ]; then
+    echo "is_flag2 is 1"
+else
+    echo "is_flag2 is not 1"
+fi
