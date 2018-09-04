@@ -7,6 +7,10 @@
 #
 
 
+
+# up-to-date pip (doesn't work)
+#curl https://bootstrap.pypa.io/get-pip.py | python3.4
+
 MODULES="
 math
 pandas
